@@ -10,39 +10,102 @@ main {
 .header_banner {
   position: absolute;
   z-index: 0;
-  display: flex;
   width: 100%;
   height: 150px;
- 
 }
-.header_elements{
+
+header {
+  cursor: pointer;
+}
+
+.header_elements {
   display: flex;
-  justify-content:space-evenly;
+  justify-content:center;
 }
 
 .logo {
   z-index: 1;
   margin-top: 100px;
   height: 35px;
+  padding-right: 5%;
+  
 }
 
 .oscar {
   z-index: 1;
   margin-top: 100px;
   height: 35px;
+  opacity: 0.6;
 }
 
 .play {
   z-index: 1;
   margin-top: 100px;
   height: 35px;
+  opacity: 0.6;
 }
+
 .elements {
+  z-index: 1;
+  margin-top: 110px;
+  height: 35px;
+  color: white;
+  opacity: 0.6;
+  padding-right: 5%;
+}
+
+.elements:hover {
+  color:white;
+  opacity: 1;
+}
+.oscar:hover {
+  color: white;
+  opacity: 1;
+}
+.play:hover {
+  color: white;
+  opacity: 1;
+}
+.logo:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+.plus:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+.moovie-search {
+  opacity: 0.6;
   z-index: 1;
   margin-top: 100px;
   height: 35px;
+  width: 144px;
   color: white;
 }
+
 #moovie-search {
- border: none;
+  padding: 10px;
+  width: 250px;
+  border-radius: 15px;
+  border: none;
+  opacity: 0.6;
 }
+.plus {
+background: -webkit-linear-gradient(left,#ff5c4d,#eb469f 26.56%,#8341ef 75%,#3f68f9);
+    color: #fff;
+    margin-top: 100px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+  z-index: 1;
+  cursor: pointer;
+  margin-left: 150px;
+  }
+
+  
+
+  
+  
