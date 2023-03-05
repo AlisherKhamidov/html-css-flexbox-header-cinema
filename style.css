@@ -4,5 +4,35 @@ body {
 
 main {
   width: 400vh;
+
 }
 
+.banner {
+  position: absolute;
+  z-index: 0;
+  display: flex;
+  width: 100%;
+  height: 150px;
+ 
+}
+.box{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  z-index: 1;
+  margin: 100px;
+  height: 35px;
+}
+
+.oscar {
+  z-index: 1;
+}
+
+.play {
+  z-index: 1;
+}
+.box1 {
+  z-index: 1;
+}
