@@ -33,9 +33,12 @@ position: absolute;
 
 #input:hover {
 opacity: 70%;
+
 }
 #oskar2023:hover, #cinema:hover {
 text-decoration: underline;
+color: gray;
+transition: color .2s linear;
 
 }
 
@@ -44,6 +47,8 @@ text-decoration: underline;
   justify-content: space-evenly;
   align-items: flex-end;
   opacity: 70%;
+  font-size: larger;
+  font-weight:lighter;
  }
 
  
