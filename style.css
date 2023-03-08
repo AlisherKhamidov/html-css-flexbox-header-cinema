@@ -1,8 +1,357 @@
 body {
   margin: 0;
+  padding: 0;
 }
 
 main {
-  width: 400vh;
+  width: 100%;
+  background-color: azure;
 }
 
+.header_banner {
+  z-index: 0;
+  height: 150px;
+  width: 100%;
+  position: absolute;
+}
+.header_elements {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+  width: 100%;
+  position: sticky;
+  bottom: 5px;
+  clip: auto;
+}
+
+.logo {
+  z-index: 1;
+  margin-top: 100px;
+  height: 35px;
+  padding-right: 5%;
+}
+.oscar {
+  z-index: 1;
+  margin-top: 100px;
+  height: 35px;
+  opacity: 0.5;
+}
+
+.play {
+  z-index: 1;
+  margin-top: 100px;
+  height: 35px;
+  opacity: 0.5;
+}
+
+.elements {
+  z-index: 1;
+  margin-top: 110px;
+  height: 35px;
+  color: white;
+  opacity: 0.5;
+  padding-right: 5%;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.elements:hover {
+  color: white;
+  opacity: 1;
+}
+
+.oscar:hover {
+  color: white;
+  opacity: 1;
+}
+
+.play:hover {
+  color: white;
+  opacity: 1;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.plus:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+
+.moovie-search {
+  opacity: 0.5;
+  z-index: 1;
+  margin-top: 100px;
+  height: 35px;
+  width: 144px;
+  color: white;
+}
+
+#moovie-search {
+  padding: 10px;
+  width: 250px;
+  border-radius: 15px;
+  border: none;
+  font-size: 16px;
+}
+
+.plus {
+  background: -webkit-linear-gradient(left, #ff5c4d, #eb469f 26.56%, #8341ef 75%, #3f68f9);
+  margin-top: 100px;
+  height: 40px;
+  width: 114px;
+  border-radius: 20px;
+  z-index: 1;
+  cursor: pointer;
+  margin-left: 140px;
+}
+
+#plus {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-flex;
+  padding-left: 0px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  margin-top: 7px;
+}
+
+
+
+.poster {
+  height: 300px;
+}
+
+.card {
+  height: fit-content;
+  width: fit-content;
+  margin: 20px;
+  position: relative;
+  float: left;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.rating {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px;
+  color: white;
+}
+
+.tickets {
+  background-color: orange;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  padding: 2px;
+  color: white;
+}
+
+.poster:hover {
+  filter: brightness(60%);
+}
+
+
+
+
+
+.footer_container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.footer_blocks {
+  background-color: black;
+  display: block;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.footer_social_links {
+  height: 75px;
+  background-color: black;
+  position: relative;
+  z-index: o;
+
+}
+
+.vk {
+  height: 30px;
+  position: absolute;
+  opacity: 0.5;
+  z-index: 1;
+  cursor: pointer;
+  padding-left: 0px;
+  margin: 40px;
+  margin-left: -75px;
+}
+
+.vk:hover {
+  opacity: 0.7;
+}
+
+.twitter {
+  height: 30px;
+  margin: 40px;
+  opacity: 0.5;
+  z-index: 1;
+  position: absolute;
+  cursor: pointer;
+  margin-left: -25px;
+
+  background-color: none;
+}
+
+.twitter:hover {
+  opacity: 0.7;
+}
+
+.telegram {
+  height: 30px;
+  margin: 40px;
+  opacity: 0.5;
+  z-index: 1;
+  position: absolute;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+.telegram:hover {
+  opacity: 0.7;
+}
+
+.youtube {
+  height: 30px;
+  margin: 40px;
+  opacity: 0.5;
+  z-index: 1;
+  position: absolute;
+  cursor: pointer;
+  margin-left: 75px;
+}
+
+.youtube:hover {
+  opacity: 0.7;
+}
+
+
+
+.footer_menu {
+  height: 75px;
+  background-color: black;
+}
+
+.f_menu {
+  padding: 20px;
+  margin: 0px;
+  position: absolute;
+  background-color: black;
+}
+
+.f_menu a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  opacity: 0.5;
+  margin-left: 30px;
+  padding-right: 30px;
+  font-weight: 500;
+}
+
+.f_menu li {
+  display: inline;
+}
+
+.f_menu a:hover {
+  opacity: 0.7;
+}
+
+
+
+.footer_content {
+  height: 75px;
+  background-color: black;
+}
+.app_store {
+  opacity: 0.7;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.app_store:hover {
+  opacity: 1.2;
+}
+.google_play {
+  opacity: 0.7;
+  z-index: 1;
+  cursor: pointer;
+}
+.google_play:hover {
+  opacity: 1.2;
+}
+.app_gallery {
+  opacity: 0.7;
+  z-index: 1;
+  cursor: pointer;
+}
+.app_gallery:hover {
+  opacity: 1.2;
+}
+
+
+
+.footer_bottom {
+  height: 75px;
+  background-color:black;
+}
+.bottom {
+  padding: 20px;
+  margin: 0px;
+  position: absolute;
+  background-color: black;
+}
+
+.bottom a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  opacity: 0.3;
+  margin-left: 30px;
+  padding-right: 30px;
+  font-weight: 500;
+}
+.yandex {
+  margin-left: 150px;
+}
+.kinopoisk {
+  margin-right: 150px;
+}
+
+.bottom li {
+  display: inline;
+}
+
+.bottom a:hover {
+  opacity: 0.7;
+}
