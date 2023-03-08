@@ -12,10 +12,8 @@
 <body>
   <header>
     <!-- ваш код здесь -->
-    <div class="header_container">
-      <img class="header_banner" src="imagebanner.jpeg" alt="banner">
-    </div>
     <div class="header_elements">
+      <img class="header_banner" src="imagebanner.jpeg" alt="banner">
       <img class="logo" src="logo.png" alt="lodo">
       <img class="play" src="play.svg" alt="play">
       <div class="elements" id="online-sinema">Онлайн-кинотеатр</div>
@@ -23,20 +21,80 @@
       <div class="elements" id="oscar">Оскар-2023</div>
       <form class="moovie-search">
         <input type="search" placeholder="Фильмы, сериалы, персоны" id="moovie-search" name="moovie-search">
-      </form>
-      <button class="plus">Попробовать Плюс</button>
-    </div>
+      </form class>
+      <div class="plus">
+        <a href="https://hd.kinopoisk.ru/?source=kinopoisk_head_button" id="plus">Попробовать Плюс</a>
+      </div>
     </div>
   </header>
 
+  <main>
+    <div class="card">
+      <img src="movie1.webp" alt="movie" class="poster">
+      <div class="rating red">4.6</div>
+      <div class="tickets">Билеты</div>
+    </div>
+    <div class="card">
+      <img src="movie2.webp" alt="movie" class="poster">
+      <div class="rating green">9.8</div>
+      <div class="tickets">Билеты</div>
+    </div>
+    <div class="card">
+      <img src="movie3.webp" alt="movie" class="poster">
+      <div class="rating green">9.9</div>
+      <div class="tickets">Билеты</div>
+    </div>
+    <div class="card">
+      <img src="movie4.webp" alt="movie" class="poster">
+      <div class="rating green">8.8</div>
+      <div class="tickets">Билеты</div>
+    </div>
+    <div class="card">
+      <img src="movie5.webp" alt="movie" class="poster">
+      <div class="rating red">6.6</div>
+      <div class="tickets">Билеты</div>
+  </main>
 
-  <main></main>
   <footer>
     <div class="footer_container">
-      <div class="box" id="box1">1</div>
-      <div class="box" id="box2">2</div>
-      <div class="box" id="box3">3</div>
-      <div class="box" id="box4">4</div>
+
+      <div class="footer_blocks">
+        <img class="vk" src="vk.svg" alt="vk">
+        <img class="twitter" src="twitter.svg" alt="twitter">
+        <img class="telegram" src="telegram.svg" alt="telegram">
+        <img class="youtube" src="youtube.svg" alt="youtube">
+        <div class="footer_social_links" id="social_links">
+        </div>
+
+        <div class="f_menu">
+          <li><a href="#vacancy">Вакансии</a></li>
+          <li><a href="#reklama">Реклама</a></li>
+          <li><a href="#agreements">Соглашение</a></li>
+          <li><a href="#help">Справка</a></li>
+          <li><a href="#blog">Блог</a></li>
+          <li><a href="#cinema_pro">Кинопоиск PRO</a></li>
+          <li><a href="#offers">Предложения</a></li>
+          <li><a href="#support">Служба поддержки</a></li>
+        </div>
+        <div class="footer_menu" id="footer_menu"></div>
+
+        <div class="content">
+          <img class="app_store" src="app_store.svg" alt="app_store">
+          <img class="google_play" src="google_play.svg" alt="google_play">
+          <img class="app_gallery" src="app_gallery.svg" alt="app_gallery">
+        </div>
+        <div class="footer_content" id="footer_content"></div>
+
+        <div class="bottom">
+          <li class="kinopoisk"><a href="#kinopoisk">© 2003 — 2023, Кинопоиск 18+</a></li>
+          <li class="tvprogram"><a href="#tvprogram">Телепрограмма</a></li>
+          <li class="music"><a href="#music">Музыка</a></li>
+          <li class="afisha"><a href="#afisha">Афиша</a></li>
+          <li class="bookmeit"><a href="#bookmeit">Букмейт</a></li>
+          <li class="yandex"><a href="#yandex">Проект компании Яндекс</a></li>
+        </div>
+        <div class="footer_bottom" id="footer_bottom"></div>
+      </div>
     </div>
   </footer>
 </body>
